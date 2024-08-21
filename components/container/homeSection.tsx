@@ -13,7 +13,7 @@ function HomeSection() {
           <SocialLinkIcon/>
           {/* prestition */}
           <div className=" md:col-span-6 flex flex-col items-center md:items-start  gap-y-6 p-2">
-            <h2 className="text-3xl md:text-5xl font-bold text-foreground capitalize"> hi,I&apos;m Wajdi Alsarory</h2>
+            <h2 className="text-3xl md:text-5xl font-bold text-foreground capitalize"> hi,I&lsquo;m Wajdi Alsarory</h2>
             <h5 className="text-xl md:text-2xl font-semibold capitalize">web developer</h5>
             <p className=' leading-7 md:text-lg md:max-w[85%] text-center md:text-start'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, recusandae libero tempore ipsam doloremque corrupti nihil, et dolorum modi vel repellat autem assumenda facilis perferendis possimus dolorem aut cum vitae.</p>
             <div className="flex gap-2 py-4">
