@@ -15,7 +15,7 @@ export interface progress{
 }
 export interface statistic{
     lable:String
-    value:Number
+    value:number
     
 }
 export type skillsCategory='frontend'|'backend'|'tools'

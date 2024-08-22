@@ -8,12 +8,12 @@ function  getstatistic() {
     const Statistics:statistic[]=[
         {
             lable:"Year Expirence",
-           value: new Date().getFullYear()-2018
+           value:new Date().getFullYear()-2018
            
         },
         {
             lable:"Project",
-            value: 4,
+            value: 4
            
         },
     
