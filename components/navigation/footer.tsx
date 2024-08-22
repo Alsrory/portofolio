@@ -9,7 +9,7 @@ function Footer() {
   const currentYear = new Date().getFullYear();
   return (
     <footer className="fixed bottom-0 -end-0 border-t-2 w-full  shadow-md  px-3 py-4  md:pb-4 bg-muted/95 z-10 ">
-      <div className="flex px-3 md:px-10 lg:px-20 justify-between   items-center gap-y-4">
+      <div className=" container flex px-3 md:px-10 lg:px-20 justify-between   items-center gap-y-4">
         <div className=" hidden md:block">
         <p >
           Copyright &copy; {currentYear} All right reserved
