@@ -1,7 +1,6 @@
 import React from 'react'
 import { getSkills } from '@/sanity/lib/skills'
 import { Effect } from '../ui/effects'
-import SkillsTap from './compenents of continer/skillsTap'
 import Section_Title from './compenents of continer/Section_Title'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '../ui/tabs'
 import { tabsItem } from '@/src/constant/tabsItem'

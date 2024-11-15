@@ -1,10 +1,15 @@
+import { getProject } from "@/sanity/lib/project";
 import { statistic } from "./interfaces";
 
     
    
 
 
-function  getstatistic() {
+  async function  getstatistic() {
+  
+     const projects= await getProject()
+   let number_project=  projects.length
+     
     const Statistics:statistic[]=[
         {
             lable:"Year Expirence",
@@ -13,7 +18,7 @@ function  getstatistic() {
         },
         {
             lable:"Project",
-            value: 4
+            value: number_project
            
         },
     
@@ -24,3 +29,5 @@ function  getstatistic() {
 }
 
 export default getstatistic
+
+

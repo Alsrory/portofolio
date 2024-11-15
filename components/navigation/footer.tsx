@@ -1,6 +1,6 @@
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import { FooterIcons } from "@/src/constant/footerIcon";
+import { LinksNav } from "@/src/constant/navlinks";
 import { SocialLink } from "@/src/constant/socialLinks";
 import Link from "next/link";
 import React from "react";
@@ -17,7 +17,7 @@ function Footer() {
         </div>
         
 
-        {FooterIcons.map((link, index) => {
+        {LinksNav.map((link, index) => {
           const { linkUrl, icon: Icon } = link;
           return (
            

@@ -11,7 +11,7 @@ function NavBar(){
     return(
         <div className=" top-0 fixed backdrop-blur-md bg-background/70 w-full z-30  ">
             
-        <div className=" container flex justify-between py-6 pr-6 lg:pr-32 ">
+        <div className=" container flex justify-between py-6  lg:pr-10 ">
         <Logo/>
         {/* navbar of desktop  */}
         <div className=" hidden md:visible md:flex gap-8  ">

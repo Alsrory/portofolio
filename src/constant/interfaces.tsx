@@ -2,11 +2,10 @@ import { LucideIcon } from "lucide-react"
 
 export interface links{
     linkName:string ,
-    linkUrl:string
-} 
-export interface socialLink extends links{
+    linkUrl:string,
     icon:LucideIcon
-}
+} 
+
 export interface progress{
     title:string
     long:number

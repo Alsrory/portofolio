@@ -13,8 +13,9 @@ import Footer from "@/components/navigation/footer";
 export default function Home() {
   return (
     <main className="   ">
-      <div className=" container pt-24 space-y-20  lg:pt-28 antialiased">
       <NavBar/>
+      <div className=" container pt-24 space-y-24  lg:pt-28 antialiased">
+      
       <HomeSection/>
         {/*end  skills esction */}
         <About/>

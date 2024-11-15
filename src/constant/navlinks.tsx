@@ -1,27 +1,27 @@
-import { getProject } from "@/sanity/lib/project";
 import { links } from "./interfaces";
+import { Facebook, Home, LayersIcon, Linkedin, MessageCircle, Settings, User, WheatIcon, X } from "lucide-react";
+
 
   export const LinksNav:links[]=[
-   
-{
-    linkName:"home",
-    linkUrl:"/"
-},
-{
-    linkName:"about",
-    linkUrl:"#about"
-},
-{
-    linkName:"skills",
-    linkUrl:"#skills"
-},
-{
-    linkName:"project",
-    linkUrl:"/"
-},
-{
-    linkName:"contact",
-    linkUrl:"/"
     
-},
-  ]
+     {
+         linkName:'about',
+          linkUrl:'#about',
+          icon:User,
+      },
+      {
+          linkName:'skills',
+           linkUrl:'#skills',
+           icon:Settings,
+       },
+ 
+      {
+         linkName:'Project',
+          linkUrl:'#project',
+          icon:LayersIcon,
+      },
+      {linkName:'Contect',
+         linkUrl:'#contact',
+         icon:MessageCircle
+        
+      }]

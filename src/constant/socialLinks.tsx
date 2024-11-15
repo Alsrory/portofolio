@@ -1,7 +1,8 @@
 import { Facebook, Linkedin, MessageCircle, WheatIcon, X } from "lucide-react";
-import { socialLink } from "./interfaces";
+import { links } from "./interfaces";
+// import { socialLink } from "./interfaces";
 
-export const SocialLink:socialLink[]=[
+export const SocialLink:links[]=[
     {
        linkName:'Linkedin',
         linkUrl:'/',

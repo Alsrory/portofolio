@@ -7,7 +7,7 @@ import { Mail } from 'lucide-react'
 
 function Contact() {
   return (
-    <article id="" className=' relative bg-card bg-opacity-80 backdrop-blur-md border shadow-sm rounded-xl p-6 flex flex-col items-center gap-y-6 md:gap-y-12'>
+    <article id="contact" className=' relative bg-card bg-opacity-80 backdrop-blur-md border shadow-sm rounded-xl p-6 flex flex-col items-center gap-y-6 md:gap-y-12'>
       <Effect variant={'ball'} size={'default'} className='top-0 -end-4'/>
       <Section_Title title='Contect with ' descripation={'this my way to cantact with me'} className='md:items-center md:pt-6'/>
       <a href="mailto:wwwalasrory55gmail.com" className={buttonVariants({size:'lg'})}>
