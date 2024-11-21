@@ -15,7 +15,7 @@ import getstatistic from '@/src/constant/statistic'
       <Effect variant='square' size='default' className='-top-4 -right-5 -z-10 rotate-12'/>
      <Section_Title title='about me ' descripation='aquick introduction about me ' className=' items-center'
      />
-     <p>Dedicated and skilled Full-Stack Web Developer with a strong foundation in Information Technology. I have a passion for crafting efficient, user-friendly, and innovative web applications that meet client needs and enhance user experience. Proficient in both front-end and back-end technologies, I possess expertise in languages and frameworks such as HTML, CSS, JavaScript, React, Node.js, and more. With a commitment to continuous learning and problem-solving, I thrive in dynamic environments and am adept at collaborating with cross-functional teams to deliver high-quality software solutions.
+     <p>Dedicated and skilled Full-Stack Web Developer with a  Bachelor`&apos;`s degree  in Information Technology. I have a passion for crafting efficient, user-friendly, and innovative web applications that meet client needs and enhance user experience. Proficient in both front-end and back-end technologies, I possess expertise in languages and frameworks such as HTML, CSS, JavaScript, React, Node.js, and more. With a commitment to continuous learning and problem-solving, I thrive in dynamic environments and am adept at collaborating with cross-functional teams to deliver high-quality software solutions.
 
 </p>
      <div className="grid grid-cols-2 md:grid-cols-3 gap-x-6  gap-y-4 items-end">
