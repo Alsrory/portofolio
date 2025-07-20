@@ -23,7 +23,7 @@ function NavBar(){
        {/* end of desktop navbar */}
         
         {/* mobile navbar */}
-        <div className="flex pr-10 items-start gap-1">
+        <div className="flex pr-10 md:pr-0 items-start gap-1">
         <ModeToggle/>
         <MobileNavBar/>
       

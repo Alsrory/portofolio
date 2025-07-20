@@ -19,9 +19,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className=" scroll-smooth selection:bg-primary selection:text-white">
+    <html lang="en" className=" overflow-x-hidden  scroll-smooth selection:bg-primary selection:text-white">
       
-      <body className={cn(" ainer text-muted-foreground overflow-x-hidden",inter.className)}>
+      <body className={cn(" ainer text-muted-foreground overflow-x-hidden ",inter.className)}>
       <ThemeProvider
             attribute="class"
             defaultTheme="system"

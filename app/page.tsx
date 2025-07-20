@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <main className="   ">
       <NavBar/>
-      <div className=" container pt-24 space-y-24  lg:pt-28 antialiased">
+      <div className=" container mt-10 pt-28 space-y-28  lg:pt-28 antialiased">
       
       <HomeSection/>
         {/*end  skills esction */}
