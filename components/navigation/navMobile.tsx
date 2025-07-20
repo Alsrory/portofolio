@@ -22,7 +22,7 @@ import { FC, useState } from "react";
             {/* القائمة المنسدلة من الأعلى جهة اليمين */}
             <div
                 className={`
-                    fixed top-0 right-0 z-[101] w-[30vw] max-w-xs h-200vh 
+                    fixed top-0 right-0 z-[101] w-[60vw] max-w-xs  h-[70vh]
                     flex flex-col content-center items-start pt-8 pb-8 bg-white/95 rounded-bl-2xl shadow-2xl
                     transition-all duration-300 
                     ${isopendiv ? "translate-y-0 opacity-100" : "-translate-y-10 opacity-0 pointer-events-none"}
