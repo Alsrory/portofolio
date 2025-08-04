@@ -5,6 +5,7 @@ import NavBar from "../components/navigation/navbar";
 import Footer from "../components/navigation/footer";
 import { ThemeProvider } from "next-themes";
 import { cn } from "@/lib/utils";
+import { GOOGLE_FONT_PROVIDER } from "next/dist/shared/lib/constants";
 
 const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
