@@ -9,6 +9,7 @@ import SkillsContent from '../skills/skillsContent'
 
 
 async function SkillSection() {
+  
   const frontendskills= await getSkills("frontend")
   const backendskills= await getSkills("backend")
   const toolsskills= await getSkills("tools")
@@ -19,6 +20,7 @@ async function SkillSection() {
   <Tabs defaultValue={tabsItem[0].value}>
     <div className="grid md:grid-cols-3 gap-4 md:gap-8">
       {/* tabs list */}
+   
       <TabsList className='grid grid-cols-3 md:grid-cols-1 gap-2 w-full h-fit '>
         {tabsItem.map((item)=>{
           const{value,Labal,icon:Icon}=item;

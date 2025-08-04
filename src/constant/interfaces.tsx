@@ -43,3 +43,8 @@ export interface Projects{
 
 
 }
+export interface AchivevItem{
+    _id:string,
+    image:any[],
+    description:string
+}

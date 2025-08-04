@@ -8,6 +8,7 @@ import Contact from "@/components/container/contact";
 import ScrollToTap from "@/components/container/compenents of continer/scroll_To_tap";
 import NavBar from "@/components/navigation/navbar";
 import Footer from "@/components/navigation/footer";
+import Achievement from "@/components/container/compenents of continer/achievement";
 
 
 export default function Home() {
@@ -22,7 +23,9 @@ export default function Home() {
         
          <SkillSection/>
          <Project/>
+         <Achievement/>
          <Contact/>
+
          <ScrollToTap/>
       
           

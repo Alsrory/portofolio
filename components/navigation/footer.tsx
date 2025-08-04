@@ -21,7 +21,7 @@ function Footer() {
           const { linkUrl, icon: Icon } = link;
           return (
            
-              <Link key={index} href={link.linkUrl}  className={"hover:text-primary capitalize text-foreground flex gap-x-1  md:gap-x-3 "}>
+              <Link key={index} href={link.linkUrl}  className={"hover:text-primary text-sm md:text-xl capitalize text-foreground flex gap-x-1  md:gap-x-3 "}>
                 <Icon className="size-4  mt-1" />
               
               <span className="">{link.linkName}</span></Link>

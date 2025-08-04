@@ -10,7 +10,7 @@ import { Effect } from "../ui/effects";
 function HomeSection() {
   return (
     <section className="grid md:grid-cols-12 items-center gap-6">
-      <SocialLinkIcon />
+      <SocialLinkIcon typeFlex=' flex-row md:flex-col' />
       {/* prestition */}
       <div className=" md:col-span-6 flex flex-col items-center md:items-start  gap-y-6 p-2">
         <h2 className="text-3xl md:text-5xl font-bold text-foreground capitalize">
@@ -21,11 +21,11 @@ function HomeSection() {
           web developer
         </h5>
         <p className=" leading-7 md:text-lg md:max-w[85%] text-center md:text-start">
-          I&#39;m Wajdi Al-Sarouri, a passionate Full-Stack Web Developer with a
-          Bachelor&#39;s degree in Information Technology. I specialize in
-          building modern, responsive web applications using technologies like
-          React, Next.js, Node.js, PHP, and Laravel. I am constantly learning
-          and evolving to stay ahead in the fast-paced world of web development.
+           Full-Stack Web Developer 
+
+I&lsquo;m a passionate and detail-oriented developer with a Bachelor&lsquo;s degree in Information Technology.
+I specialize in crafting scalable and high-performance web applications, with a strong focus on Back-End development using Laravel, PHP, Node.js, and RESTful APIs.
+On the Front-End, I work with React.js, Next.js, and Tailwind CSS to build clean, modern, and responsive user interfaces.
         </p>
 
         <div className="flex gap-2 py-4">
@@ -34,7 +34,7 @@ function HomeSection() {
             <ArrowRightCircle className="size-4"></ArrowRightCircle>
           </a>
           <a
-            href="Wajdi_alsarory_CV.pdf"
+            href="cv.pdf"
             target="_blank"
             className={buttonVariants({ size: "lg", variant: "outline" })}
             download={true}
