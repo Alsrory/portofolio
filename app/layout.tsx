@@ -8,12 +8,13 @@ import { cn } from "@/lib/utils";
 
 const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
-  title: "وجدي السروري | مطوّر Laravel وReact - أعمالي ومشاريعي",
-  description: "الموقع الشخصي لوجدي السروري، مطوّر Back-End متخصص في Laravel وReact وNext.js. استعرض أعمالي ومشاريعي وخبراتي في تطوير الويب الحديث.",
+  title: "وجدي السروري | Wajdi Alsarory – Laravel & React Developer",
+  description: "أنا وجدي السروري، مطوّر Laravel وReact بخبرة في تطوير تطبيقات الويب الحديثة. Explore modern full-stack projects using Laravel, Next.js, and REST APIs.",
   icons: {
-    icon: "/n.svg",
+    icon: "/favicon.ico",
   },
 };
+
 
 export default function RootLayout({
   children,
