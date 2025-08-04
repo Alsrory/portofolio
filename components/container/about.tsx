@@ -9,7 +9,9 @@ import getstatistic from "@/src/constant/statistic";
 async function About() {
   const { Statistics } = await getstatistic();
   return (
+    // about section 
     <section id="about" className="relative scroll-mt-28">
+      
       <Effect className="left-32 md:-left-44 -top-12" />
       <article className="relative mx-auto max-w-[50rem] bg-background/90 border rounded-lg p-6 flex flex-col gap-y-6">
         <Effect
