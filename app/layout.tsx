@@ -14,6 +14,9 @@ export const metadata = {
   icons: {
     icon: "/favicon.ico",
   },
+   other: {
+    "google-site-verification": "google778d2074ea81e0a6"
+  }
 };
 
 
